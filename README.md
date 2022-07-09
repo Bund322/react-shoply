@@ -1,4 +1,4 @@
-<h1 align="center">Портфолио</h1>
+<h1 align="center">Shoply React</h1>
 
 ## Описание
 
