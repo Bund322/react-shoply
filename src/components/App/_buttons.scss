@@ -1,0 +1,58 @@
+.delete-btn {
+    width: 50px;
+    img {
+        pointer-events: none;
+    }
+}
+
+.header__button {
+    background-color: #211F1C;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    padding: 8px 33px;
+
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+    &:hover {
+        background-color: darken(#211F1C, 10);
+    }
+}
+
+.close {
+    padding: 12px 41px;
+    background: #FFFFFF;
+    border: 1px solid #616467;
+
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    color: #616467;
+
+    transition: color 0.3s ease-in, border 0.3s ease-in;
+
+    &:hover {
+        color: darken(#616467, 20);
+        border: 1px solid darken(#616467, 20);
+    }
+}
+.check-out {
+    padding: 13px 18px;
+
+    background-color: #393D45;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+    color: #FFFFFF;
+    &:hover {
+        background-color: darken( #393D45, 7);
+    }
+}

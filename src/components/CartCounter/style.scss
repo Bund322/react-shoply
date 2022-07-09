@@ -1,0 +1,34 @@
+.count {
+    display: flex;
+    align-items: center;
+}
+.count__box {
+    width: 30px;
+    height: 30px;
+
+    background: #F8F8F8;
+    border: 1px solid #000000;
+}
+
+.count__input::-webkit-inner-spin-button,
+.count__input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.count__input {
+    max-width: 100%;
+    padding-top: 2px;
+
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.count__down, .count__up {
+    img {
+        pointer-events: none;
+    }
+}
