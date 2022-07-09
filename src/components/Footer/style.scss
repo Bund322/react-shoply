@@ -1,0 +1,17 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__copy {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+.footer__social {
+    a + * {
+        margin-left: 20px;
+    }
+}
